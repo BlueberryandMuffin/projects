@@ -1,0 +1,145 @@
+ @charset "utf-8";
+body,ul,ol,h1,h2,h3,h4,h5,h6,p,input,select,textarea,dl,dd{margin: 0;padding: 0;}
+
+ul,ol{list-style: none;}
+
+input,select,textarea
+{background-color: transparent; border: none; outline:none;}
+
+textarea{resize: none;}
+
+img{border: none; vertical-align: top;}
+
+a{text-decoration: none;}
+
+ /* 清浮动*/
+.clearfix:after,.clearfix:before{content: "";display:table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+
+/*公用样式*/
+.gWidth{width: 1200px; margin-left: auto; margin-right: auto;}
+.fl{float: left;}
+.fr{float: right;}
+.body .org{color:#***;}
+.show{display: block;}
+.hide{display: none;}
+
+.i2{
+	width: 10px;
+	height: 24px;
+	background: #D60000;
+	display: inline-block;
+	border-radius: 3px;
+	float: left;
+	margin-left: 4px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.h2{
+	font-size: 24px;
+	color:#666666;
+	float: left;
+	margin-right: 12px;
+	
+}
+.p3{
+	font-size: 14px;
+	color:#D9D9D9;
+	float: left;
+	margin-top: 10px;
+
+}
+.s2{
+	color:#B3B3B3;
+	float: right;
+	margin-top: -5px;
+	font-size: 30px;
+}
+.zuhe{
+	width: 590px;
+	border-bottom: 1px dashed #4E4E4E;
+}
+.zuhe2{
+	height: 37px;
+	border-bottom: 1px dashed #4E4E4E;
+}
+
+
+.u3 li{
+	width: 144px;
+	height: 40px;
+	font-size: 12px;
+	line-height: 40px;
+	border-width: 0 0px 0px 1px;
+	border-color:#D8D8D8;
+	border-style:solid;
+	
+}
+.u3 li a{
+	color:#235894;
+	font-weight: bold;
+	margin-left: 24px;
+
+
+}
+.u3 li span{
+	color:#000;
+	margin-left: 24px;
+}
+.u3 li:hover a{
+	color:#fff;
+}
+.u3 li:hover span{
+	color:#fff;
+}
+.u4{
+	width: 150px;
+	float: left;
+	margin-right: 20px;
+}
+.u4 .i3{
+	width: 144px;
+	height: 40px;
+	display: inline-block;
+	font-style: normal;
+	border-right: 1px solid #D8D8D8;
+	border-bottom: 1px solid #D8D8D8;
+}
+.i3:hover li{
+	background: url(../images/f3.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	width: 150px;
+}
+.u5{
+	font-size: 14px;
+	
+}
+.u5 li a{
+	color:#838C95;
+	line-height: 36px;
+}
+.u5 li span{
+	margin-right: 18px;
+}
+
+.img2{
+	margin-top: 10px;
+	float: left;
+	margin-right: 16px;
+}
+.wenzi h5{
+	font-size: 14px;
+	color:#838C95;
+	line-height: 28px;
+	margin-top: 8px;
+}
+.wenzi p{
+	font-size: 12px;
+	color:#999999;
+	text-indent:2em;
+	line-height: 18px;
+	margin-bottom: 20px;
+	
+}
