@@ -1,0 +1,26 @@
+@charset "utf-8";
+body,ul,ol,h1,h2,h3,h4,h5,h6,p,input,select,textarea,dl,dd{margin: 0;padding: 0;}
+
+ul,ol{list-style: none;}
+
+input,select,textarea
+{background-color: transparent; border: none; outline:none;}
+
+textarea{resize: none;}/*右下角的小尾巴*/
+
+img{border: none; vertical-align: top;}
+
+a{text-decoration: none;}
+
+ /* 清浮动*/
+.clearfix:after,.clearfix:before{content: "";display:table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+
+/*公用样式*/
+.gWidth{width: 1200px; margin-left: auto; margin-right: auto;}
+.fl{float: left;}
+.fr{float: right;}
+.body .org{color:#***;}
+.show{display: block;}
+.hide{display: none;}
